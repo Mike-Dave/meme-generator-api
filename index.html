@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Meme Generator</title>
+
+    <link rel="stylesheet" href="output.css" />
+
+    <script defer src="script.js"></script>
+  </head>
+  <body
+    class="bg-[#FCE9F1] flex flex-col items-center min-h-screen justify-center"
+  >
+    <div
+      id="error-text"
+      class="text-center p-2 px-3 font-bold text-red-600 mb-2"
+    ></div>
+    <main class="flex flex-col justify-center items-center max-w-md p-5">
+      <h1 id="title" class="text-cente p-4 font-bold text-xl md:text-3xl">
+        Title
+      </h1>
+      <div>
+        <img
+          id="meme-img"
+          class="h-[350px] pb-0 md:h-[400px]"
+          alt="meme images"
+        />
+      </div>
+      <p id="sub-title" class="p-2 text-lg"></p>
+    </main>
+    <button
+      id="generate-btn"
+      class="bg-[#46458C] p-3 px-20 mx-auto rounded-lg mt-2 font-semibold text-white"
+    >
+      Generate Meme
+    </button>
+  </body>
+</html>
